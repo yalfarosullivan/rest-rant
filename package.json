@@ -11,6 +11,9 @@
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.0.3",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "nodemo": "^1.0.0",
+    "nodemon": "^2.0.20",
+    "npx": "^10.2.2"
   }
 }
