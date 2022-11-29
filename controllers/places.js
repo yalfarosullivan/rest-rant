@@ -1,8 +1,19 @@
+
 const router = require('express').Router()
 const places = require('../models/places.js')
 
+
+
 router.get('/new', (req, res) => {
   res.render('places/new')
+})
+
+//render place page
+router.get('/', (req, res) => {
+  res.render('places/index', {places})
+})
+
+ //create places 
 
   router.post('/', (req, res) => {
     console.log(req, res)
@@ -20,15 +31,4 @@ router.get('/new', (req, res) => {
     res.redirect('/places')
   })
   
-  
-
-// GET /places
-
-  
-res.render('places/index', {places})
-
-})
-
-
-
 module.exports = router
