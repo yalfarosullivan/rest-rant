@@ -9,6 +9,15 @@ function show (data) {
             <a href={`/places/${data.id}/edit`} className="btn btn-warning"> 
   Edit
 </a>     
+<section>
+  <h2>Rating</h2>
+  <p>Currently unrated</p>
+</section>
+
+<section>
+  <h2>Comments</h2>
+  <p>No Comments yet</p>
+</section>
 
 <form method="POST" action={`/places/${data.id}?_method=DELETE`}> 
   <button type="submit" className="btn btn-danger">
