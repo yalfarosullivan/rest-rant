@@ -1,6 +1,3 @@
-const router = require('express').Router()
-const places = require('../models/places')
-
 module.exports = [{
     name: 'H-Thai-ML',
     city: 'Seattle',
