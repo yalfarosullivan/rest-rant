@@ -42,15 +42,17 @@ router.get('/:id', (req, res) => {
   })
 })
 
-
+//Update Route
 router.put('/:id', (req, res) => {
   res.send('PUT /places/:id stub')
 })
 
+//Delete Route
 router.delete('/:id', (req, res) => {
   res.send('DELETE /places/:id stub')
 })
 
+//Edit
 router.get('/:id/edit', (req, res) => {
   res.send('GET edit form stub')
 })
