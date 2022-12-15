@@ -25,5 +25,5 @@ app.get("*", (req, res) => {
 });
 
 // Listen for Connections
-app.listen(PORT, () => console.log(`Server is running in port ${PORT}`))
+app.listen(PORT, () => console.log(`Server is running on port ${PORT}`))
 module.exports = app
