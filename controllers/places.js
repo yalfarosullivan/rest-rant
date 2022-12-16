@@ -1,6 +1,6 @@
 const router = require('express').Router()
 const db = require('../models')
-const placesSeedData= require ('../seeders/seed-places')
+//const placesSeedData= require ('../seeders/seed-places')
 
 // render place page
 router.get('/', (req, res) => {
